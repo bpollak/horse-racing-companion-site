@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bpollak.github.io/horse-racing-companion/sitemap.xml
+Sitemap: https://bpollak.github.io/horse-racing-companion-site/sitemap.xml
