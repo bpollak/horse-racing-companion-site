@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#07111c">
-    <meta name="description" content="Horse Racing Companion turns each Del Mar race into one clear decision—BET, WAIT, or SKIP—with plain-language betting-window guidance.">
+    <meta name="description" content="Horse Racing Companion analyzes public odds, historical Del Mar results, active fields, and race-day changes to produce one clear single-race recommendation.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://bpollak.github.io/horse-racing-companion-site/">
     <link rel="icon" href="assets/app-icon-v2.png">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Horse Racing Companion">
-    <meta property="og:description" content="Know what to say at the betting window—one clear race decision at a time.">
+    <meta property="og:description" content="A data-informed way to choose your Del Mar race-day ticket—not a lucky number or gut feeling.">
     <meta property="og:url" content="https://bpollak.github.io/horse-racing-companion-site/">
     <meta property="og:image" content="https://bpollak.github.io/horse-racing-companion-site/assets/og-v2.jpg">
     <meta property="og:image:width" content="1200">
@@ -20,7 +20,7 @@
     <meta property="og:image:alt" content="Horse Racing Companion — Know what to say at the window.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Horse Racing Companion">
-    <meta name="twitter:description" content="Know what to say at the betting window—one clear race decision at a time.">
+    <meta name="twitter:description" content="A data-informed way to choose your Del Mar race-day ticket—not a lucky number or gut feeling.">
     <meta name="twitter:image" content="https://bpollak.github.io/horse-racing-companion-site/assets/og-v2.jpg">
     <title>Horse Racing Companion — Picks &amp; Analysis for Del Mar</title>
     <script type="application/ld+json">
@@ -30,7 +30,7 @@
         "name": "Horse Racing Companion",
         "applicationCategory": "SportsApplication",
         "operatingSystem": "iOS",
-        "description": "An independent race-day companion that turns Del Mar card and live data into one clear BET, WAIT, or SKIP decision per race.",
+        "description": "An independent race-day companion that analyzes public odds, historical Del Mar results, active fields, and race-day changes to produce one clear BET, WAIT, or SKIP decision per race.",
         "url": "https://bpollak.github.io/horse-racing-companion-site/",
         "author": { "@type": "Person", "name": "Brett Pollak" }
       }
@@ -44,8 +44,8 @@
         <span>Horse Racing Companion</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#analysis">The analysis</a>
         <a href="#how-it-works">How it works</a>
-        <a href="#access">Access</a>
         <a href="support/">Support</a>
       </nav>
     </header>
@@ -54,11 +54,11 @@
       <section class="hero shell">
         <div class="hero-copy">
           <p class="status-chip"><span aria-hidden="true"></span> Private iPhone beta</p>
-          <p class="eyebrow">PICKS &amp; ANALYSIS FOR DEL MAR</p>
-          <h1>Know what to say at the <span class="gradient-text">window.</span></h1>
-          <p class="hero-lede">For each race, Horse Racing Companion turns public card and live data into one clear decision: <strong>BET, WAIT, or SKIP.</strong></p>
+          <p class="eyebrow">DATA-INFORMED PICKS FOR DEL MAR</p>
+          <h1>Bet with a reason. <span class="gradient-text">Not a hunch.</span></h1>
+          <p class="hero-lede">Instead of choosing a horse by color, name, or lucky number, Horse Racing Companion analyzes public race information, market signals, historical Del Mar results, and race-day changes—then turns them into one clear <strong>BET, WAIT, or SKIP</strong> decision.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#how-it-works">See how it works</a>
+            <a class="button primary" href="#analysis">See what’s analyzed</a>
             <a class="button secondary" href="support/">Get support</a>
           </div>
           <p class="beta-note">Recommendations are preliminary while the live performance record is being completed. No season pass is for sale during validation.</p>
@@ -77,18 +77,58 @@
 
       <section class="signal-band" aria-label="Product principles">
         <div class="shell signal-grid">
-          <div><strong>1</strong><span>ticket per race</span></div>
-          <div><strong>$5</strong><span>default maximum</span></div>
+          <div><strong>1,800+</strong><span>historical races studied</span></div>
+          <div><strong>Live</strong><span>market and field updates</span></div>
           <div><strong>~2 min</strong><span>target finalization before post</span></div>
-          <div><strong>0</strong><span>wagers placed by the app</span></div>
+          <div><strong>1</strong><span>clear decision per race</span></div>
         </div>
+      </section>
+
+      <section id="analysis" class="section shell analysis-section">
+        <div class="analysis-heading">
+          <div>
+            <p class="eyebrow">ANALYSIS OVER GUESSWORK</p>
+            <h2>A bet built from public evidence—not superstition.</h2>
+          </div>
+          <p>The model starts with what the public market and the Del Mar record are actually saying. It compares the active field, looks for meaningful separation or ambiguity, and selects one coherent single-race ticket.</p>
+        </div>
+        <div class="analysis-grid">
+          <article class="analysis-card">
+            <span class="data-tag">MARKET</span>
+            <h3>Morning-line and current odds</h3>
+            <p>Available odds are converted into a normalized view of the active field, so every horse is compared on the same basis rather than as an isolated price.</p>
+          </article>
+          <article class="analysis-card">
+            <span class="data-tag">HISTORY</span>
+            <h3>Del Mar trainer and jockey results</h3>
+            <p>Past performance by each horse’s connections is applied as a cautious, sample-adjusted signal—not as an automatic rule or a guarantee.</p>
+          </article>
+          <article class="analysis-card">
+            <span class="data-tag">FIELD</span>
+            <h3>Active runners and field clarity</h3>
+            <p>Scratched horses are removed. The model then measures how clearly the leading contenders separate and how much uncertainty remains across the field.</p>
+          </article>
+          <article class="analysis-card">
+            <span class="data-tag">LIVE</span>
+            <h3>Odds, scratches, and race-day changes</h3>
+            <p>The recommendation keeps checking current information as post time approaches, so a preliminary ticket can change before the final decision window.</p>
+          </article>
+        </div>
+        <div class="analysis-process" aria-label="How public race information becomes a recommendation">
+          <div><span>01</span><strong>Read the public signals</strong></div>
+          <i aria-hidden="true">→</i>
+          <div><span>02</span><strong>Rank the active field</strong></div>
+          <i aria-hidden="true">→</i>
+          <div><span>03</span><strong>Choose one ticket—or pass</strong></div>
+        </div>
+        <p class="analysis-note"><strong>Transparent about the inputs, protective of the formula.</strong> We identify the data categories used and retain the results for review. Exact weights and decision thresholds remain part of the proprietary model. Analysis can improve a decision process; it cannot guarantee a winner or a profit.</p>
       </section>
 
       <section id="how-it-works" class="section shell">
         <div class="section-heading narrow">
-          <p class="eyebrow">A CALMER DAY AT THE RACES</p>
+          <p class="eyebrow">FROM ANALYSIS TO ACTION</p>
           <h2>From race card to teller-ready words.</h2>
-          <p>You do not need to know racing jargon. The app keeps the decision, horse numbers, cost, timing, and explanation in one place.</p>
+          <p>You do not need to interpret every data point or know racing jargon. The app keeps the analytical decision, horse numbers, cost, timing, and explanation in one place.</p>
         </div>
         <div class="steps-grid">
           <article class="step-card">
@@ -201,6 +241,10 @@
           <details>
             <summary>Is “evidence strength” my chance of winning?</summary>
             <p>No. It describes data quality and recommendation stability. It is not a predicted win percentage and does not guarantee an outcome.</p>
+          </details>
+          <details>
+            <summary>What information does the analysis use?</summary>
+            <p>The current model uses public morning-line or live odds, historical Del Mar trainer and jockey results, the active field and scratches, and the amount of separation or ambiguity among the leading horses. It continues checking live odds and race-day changes before the decision is finalized.</p>
           </details>
           <details>
             <summary>Why is my recommendation preliminary?</summary>
