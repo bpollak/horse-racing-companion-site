@@ -90,23 +90,23 @@
             <p class="eyebrow">ANALYSIS OVER GUESSWORK</p>
             <h2>A bet built from public evidence—not superstition.</h2>
           </div>
-          <p>The model starts with what the public market and the Del Mar record are actually saying. It compares the active field, looks for meaningful separation or ambiguity, and selects one coherent single-race ticket.</p>
+          <p>The app starts with the public morning-line odds, then uses past Del Mar trainer and jockey results as small, cautious adjustments. It removes scratched horses, compares the remaining field, and checks current odds before the recommendation becomes final.</p>
         </div>
         <div class="analysis-grid">
           <article class="analysis-card">
             <span class="data-tag">MARKET</span>
             <h3>Morning-line and current odds</h3>
-            <p>Available odds are converted into a normalized view of the active field, so every horse is compared on the same basis rather than as an isolated price.</p>
+            <p>Morning-line odds start the field comparison. Closer to the race, current odds for the leading selection are checked and can affect the final ticket.</p>
           </article>
           <article class="analysis-card">
             <span class="data-tag">HISTORY</span>
             <h3>Del Mar trainer and jockey results</h3>
-            <p>Past performance by each horse’s connections is applied as a cautious, sample-adjusted signal—not as an automatic rule or a guarantee.</p>
+            <p>Past Del Mar results for each horse’s trainer and jockey can make a small adjustment. A short history is given less influence.</p>
           </article>
           <article class="analysis-card">
             <span class="data-tag">FIELD</span>
-            <h3>Active runners and field clarity</h3>
-            <p>Scratched horses are removed. The model then measures how clearly the leading contenders separate and how much uncertainty remains across the field.</p>
+            <h3>The horses still in the race</h3>
+            <p>Scratched horses are removed before the field is compared. The app then checks whether one horse or a small group stands out.</p>
           </article>
           <article class="analysis-card">
             <span class="data-tag">LIVE</span>
@@ -114,14 +114,14 @@
             <p>The recommendation keeps checking current information as post time approaches, so a preliminary ticket can change before the final decision window.</p>
           </article>
         </div>
-        <div class="analysis-process" aria-label="How public race information becomes a recommendation">
-          <div><span>01</span><strong>Read the public signals</strong></div>
+        <div class="analysis-process" role="group" aria-label="How public race information becomes a recommendation">
+          <div><span>01</span><strong>Gather the public information</strong></div>
           <i aria-hidden="true">→</i>
-          <div><span>02</span><strong>Rank the active field</strong></div>
+          <div><span>02</span><strong>Compare the horses</strong></div>
           <i aria-hidden="true">→</i>
-          <div><span>03</span><strong>Choose one ticket—or pass</strong></div>
+          <div><span>03</span><strong>Suggest one race ticket</strong></div>
         </div>
-        <p class="analysis-note"><strong>Transparent about the inputs, protective of the formula.</strong> We identify the data categories used and retain the results for review. Exact weights and decision thresholds remain part of the proprietary model. Analysis can improve a decision process; it cannot guarantee a winner or a profit.</p>
+        <p class="analysis-note"><strong>Plain about the information used.</strong> The app explains the public information behind each recommendation and keeps past recommendations beside the official results. The exact formula remains proprietary. No analysis can guarantee a winner or a profit.</p>
       </section>
 
       <section id="how-it-works" class="section shell">
@@ -138,8 +138,8 @@
           </article>
           <article class="step-card accent-card">
             <span class="step-number">02</span>
-            <h3>Read the decision</h3>
-            <p>BET means a ticket is ready. WAIT means the calculation is still changing. SKIP means the evidence does not justify a ticket.</p>
+            <h3>Check the recommendation status</h3>
+            <p>Preliminary means live information can still change the ticket. Final means the race-day calculation is complete. An unusually unclear race may show no bet.</p>
           </article>
           <article class="step-card">
             <span class="step-number">03</span>
@@ -154,7 +154,7 @@
           <div class="screen-stack" role="img" aria-label="Preview of a race recommendation">
             <div class="screen-glow"></div>
             <div class="phone-shell detail-phone">
-              <img src="assets/race-preview.png" alt="Race detail showing a preliminary ticket, selected horses, and evidence strength" width="603" height="1311" loading="lazy">
+              <img src="assets/race-preview.png" alt="Race detail showing a preliminary ticket, selected horses, and recommendation confidence" width="603" height="1311" loading="lazy">
             </div>
           </div>
           <div class="product-copy">
@@ -190,24 +190,24 @@
       <section class="section shell">
         <div class="section-heading narrow">
           <p class="eyebrow">HONEST ABOUT UNCERTAINTY</p>
-          <h2>No forced pick. No hidden misses.</h2>
-          <p>The model can recommend skipping a race. Every recommendation preserves its evidence, timestamp, and eventual result so performance can be judged on the full record.</p>
+          <h2>Clear timing. An honest record.</h2>
+          <p>The app tells you when a recommendation can still change and when it is final. It may show no bet for an unusually unclear race, and it keeps each final recommendation beside the official result.</p>
         </div>
         <div class="decision-grid">
           <article class="decision-card bet">
-            <span>BET</span>
-            <h3>A complete ticket is ready</h3>
-            <p>Horse numbers, bet type, amount, and betting-window wording all agree.</p>
+            <span>FINAL</span>
+            <h3>The race-day calculation is complete</h3>
+            <p>The horse numbers, bet type, amount, and betting-window wording are ready to review.</p>
           </article>
           <article class="decision-card wait">
-            <span>WAIT</span>
-            <h3>The race is still changing</h3>
+            <span>PRELIMINARY</span>
+            <h3>The recommendation can still change</h3>
             <p>Odds, scratches, or other live information still need to settle.</p>
           </article>
           <article class="decision-card skip">
-            <span>SKIP</span>
-            <h3>The evidence is not strong enough</h3>
-            <p>Passing is a real decision—not missing content or a technical error.</p>
+            <span>NO BET</span>
+            <h3>The race is unusually unclear</h3>
+            <p>The app does not force a ticket when no horse or small group stands out.</p>
           </article>
         </div>
       </section>
@@ -239,12 +239,12 @@
             <p>No. Horse Racing Companion does not accept deposits, create a wagering account, transmit wagers, or connect to a betting operator. You decide whether to place a wager yourself.</p>
           </details>
           <details>
-            <summary>Is “evidence strength” my chance of winning?</summary>
-            <p>No. It describes data quality and recommendation stability. It is not a predicted win percentage and does not guarantee an outcome.</p>
+            <summary>Is recommendation confidence my chance of winning?</summary>
+            <p>No. Low, Medium, or High describes how clearly the available information supports the recommendation. It is not a predicted win percentage and does not guarantee an outcome.</p>
           </details>
           <details>
             <summary>What information does the analysis use?</summary>
-            <p>The current model uses public morning-line or live odds, historical Del Mar trainer and jockey results, the active field and scratches, and the amount of separation or ambiguity among the leading horses. It continues checking live odds and race-day changes before the decision is finalized.</p>
+            <p>The current model uses public morning-line odds and past Del Mar trainer and jockey results to rank the active horses. Scratches determine who remains in the comparison. Closer to the race, current odds for the leading selection are checked and can affect the final ticket.</p>
           </details>
           <details>
             <summary>Why is my recommendation preliminary?</summary>

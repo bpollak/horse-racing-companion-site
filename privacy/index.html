@@ -24,7 +24,7 @@
       <header class="legal-hero">
         <p class="eyebrow">LEGAL</p>
         <h1>Privacy Policy</h1>
-        <p>Effective August 16, 2026. This policy explains the limited information Horse Racing Companion uses to provide race-day analysis and app access.</p>
+        <p>Effective August 17, 2026. This policy explains exactly what Horse Racing Companion processes through the iPhone app, website, application service, and support email.</p>
       </header>
       <div class="legal-layout">
         <nav class="legal-nav" aria-label="Privacy policy sections">
@@ -33,54 +33,62 @@
         <article class="legal-content">
           <h2 id="summary">Privacy at a glance</h2>
           <div class="legal-callout">
-            <p><strong>No account, advertising profile, or precise location is required.</strong></p>
-            <p>Horse Racing Companion does not sell personal information, use third-party advertising trackers, or ask for your name, email address, contacts, photos, or precise location inside the app.</p>
+            <p><strong>No account, ad profile, analytics SDK, or location permission is required.</strong></p>
+            <p>The app uses a random installation identifier to provide complimentary-day and season-pass access. We do not sell personal information, track you across other companies’ apps or websites, or ask for your name, email address, contacts, photos, microphone, camera, or location inside the app.</p>
           </div>
 
           <h2 id="collect">Information we collect</h2>
-          <h3>Random installation identifier</h3>
-          <p>The app creates a random identifier for that installation. It is used to remember complimentary racing days and season-pass access. It is not your Apple ID, advertising identifier, device serial number, name, or email address.</p>
-          <h3>Access and product interactions</h3>
-          <p>We record which racing dates an installation intentionally unlocks, the remaining complimentary-day count, entitlement status, and basic request timestamps needed to operate and protect the service.</p>
-          <h3>Purchase information</h3>
-          <p>If season-pass purchases become available, Apple processes the payment. Our service receives signed transaction information needed to verify and restore access, such as product, transaction, purchase, and expiration details. We do not receive or store your payment-card number.</p>
-          <h3>Technical information</h3>
-          <p>Like most internet services, our hosting provider may process IP address, request time, response status, and similar security or diagnostic information when the app contacts the service. We use this information to operate, secure, and troubleshoot the app—not to build an advertising profile.</p>
-          <h3>Support messages</h3>
-          <p>If you email support, we receive the email address and information you choose to include. Do not send payment credentials, government identification, or wagering-account details.</p>
-          <h3>Race information</h3>
-          <p>The race cards, odds, scratches, changes, recommendations, and results stored by the service concern public racing events and are not information about an app user.</p>
+          <h3>Installation identifier</h3>
+          <p>On first use, the app creates a random UUID and stores it using iOS secure storage. The app sends this UUID to the Horse Racing Companion application service with requests. The service stores the UUID, when its record was created, and when it was last used. The UUID is not your Apple ID, advertising identifier, device serial number, name, or email address, but it does link the access records described below to one app installation. You can view and select it in Settings under Installation ID.</p>
+          <h3>Complimentary-day and access activity</h3>
+          <p>The service records each racing date you intentionally unlock, its season, the activation time, and any season-pass entitlement linked to the installation identifier. This lets the service calculate complimentary days remaining and decide whether a card is unlocked. It does not record each screen you view or button you tap as analytics.</p>
+          <h3>Purchase verification</h3>
+          <p>If season-pass purchases become available and you buy or restore one, Apple processes the payment. The app sends Apple’s signed transaction to our service so it can verify access. The service does not retain the signed transaction itself. It stores a cryptographic hash of it, Apple transaction and original-transaction identifiers, product identifier, purchase date, Apple environment, transaction status, and the related entitlement dates and status. For Apple server notifications, the service stores the notification identifier and type, related transaction identifier when present, received time, and whether it was processed; it does not retain the signed notification. We do not receive your payment-card number, Apple Account password, or full Apple purchase history.</p>
+          <h3>Information kept only on the device</h3>
+          <p>The app stores cached race cards, race details, access status, onboarding completion, and the total wager amount you select for a race in local app storage. The amount you select for a race is not sent to our service. The installation identifier is also stored locally, but—as explained above—it is sent to the service for app access.</p>
+          <h3>Network and hosting information</h3>
+          <p>When the app contacts the service, Railway, our hosting provider, may process the IP address, request time, requested path, response status, and similar security or diagnostic information in infrastructure logs. Horse Racing Companion does not use that information for advertising or cross-app tracking.</p>
+          <h3>Website visits and support messages</h3>
+          <p>The website is a static GitHub Pages site. We have not added advertising cookies, analytics scripts, or tracking pixels. GitHub logs a visitor’s IP address for security and may process other standard web-request information under its own privacy terms. If you email support, Google’s Gmail service and the developer receive your email address, message, and anything you attach. Do not send payment credentials, government identification, or wagering-account details.</p>
+          <h3>Public racing information</h3>
+          <p>The service retrieves public Del Mar race cards, odds, scratches, changes, and results and creates recommendations and performance records from them. These records describe public racing events, not app users. The service does not send your installation identifier to the Del Mar public data source.</p>
 
           <h2 id="use">How we use information</h2>
           <ul>
-            <li>Provide current cards, recommendations, results, and access status.</li>
+            <li>Provide current cards, recommendations, results, and card access.</li>
             <li>Count complimentary racing days and restore valid purchases.</li>
             <li>Protect the service from abuse, diagnose failures, and maintain reliability.</li>
             <li>Respond to support, privacy, and accessibility requests.</li>
             <li>Meet legal, tax, accounting, and App Store obligations when applicable.</li>
           </ul>
-          <p>We do not use app information for cross-app tracking or targeted advertising.</p>
+          <p>We do not use app information for third-party advertising, targeted advertising, data-broker sales, or tracking across other companies’ apps or websites.</p>
+
+          <h2>How this maps to Apple’s privacy labels</h2>
+          <p>For App Store disclosure, the random installation UUID is treated as a <strong>Device ID</strong>, an activated complimentary day is treated as <strong>Product Interaction</strong>, and a verified season pass is treated as <strong>Purchase History</strong>. Each is linked to the installation identifier only for app functionality and is not used for tracking.</p>
 
           <h2 id="sharing">Service providers and disclosures</h2>
           <p>We disclose limited information only as needed to operate the app:</p>
           <ul>
-            <li><strong>Apple:</strong> distributes the app and processes App Store purchases under Apple’s own privacy terms.</li>
-            <li><strong>Railway:</strong> hosts the application service and database and may process technical request information on our behalf.</li>
+            <li><strong>Apple:</strong> distributes the app, provides iOS secure storage, and processes and verifies App Store purchases under <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple’s Privacy Policy</a>.</li>
+            <li><strong>Railway:</strong> hosts the application service and database and may process stored service records and technical request information on our behalf under <a href="https://railway.com/legal/privacy" rel="noopener noreferrer">Railway’s Privacy Policy</a>.</li>
+            <li><strong>GitHub:</strong> hosts the static public website through GitHub Pages and processes website requests under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub Privacy Statement</a>.</li>
+            <li><strong>Google:</strong> provides the Gmail mailbox used for support and processes messages under <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>.</li>
             <li><strong>Professional or legal recipients:</strong> only when reasonably necessary to comply with law, protect users or the service, or complete a business transaction subject to appropriate safeguards.</li>
           </ul>
           <p>We do not sell or rent personal information.</p>
 
           <h2 id="retention">Retention and security</h2>
-          <p>Access and transaction records are retained for as long as reasonably needed to provide complimentary-day and purchase restoration, prevent fraud, maintain the historical integrity of access records, and satisfy legal or accounting obligations. Support email is retained only as long as reasonably needed to resolve the request and maintain an appropriate support record.</p>
+          <p>There is currently no automatic expiration schedule for installation, complimentary-day, purchase-verification, or entitlement records. They remain in the service database so complimentary-day limits and valid purchases can be recognized, unless they are deleted after a verified request or the service no longer needs them. Purchase, fraud-prevention, tax, accounting, or legal records may be kept longer where required.</p>
+          <p>Railway controls the retention of its infrastructure logs under its service settings and terms. Support messages remain in the Gmail support mailbox until they are deleted; you may ask us to delete a support conversation. Local app data remains under iOS and app storage controls until it is cleared, removed, or replaced, subject to iOS backup and secure-storage behavior.</p>
           <p>We use reasonable administrative and technical safeguards, including encrypted network connections. No system can guarantee absolute security.</p>
 
           <h2 id="choices">Your privacy choices</h2>
-          <p>You may request access to or deletion of information associated with an installation by emailing <a href="mailto:brettcpollak@gmail.com?subject=Horse%20Racing%20Companion%20Privacy%20Request">brettcpollak@gmail.com</a>. Because the app does not use a login, we may ask for the installation identifier shown in the app so we can locate the correct record.</p>
-          <p>Deleting an installation record may reset complimentary-day status and may prevent the service from restoring access unless a valid App Store transaction can be verified again. Some transaction or security records may be retained where required by law or for fraud prevention.</p>
+          <p>You may request access to, correction of, or deletion of service information associated with an installation by emailing <a href="mailto:brettcpollak@gmail.com?subject=Horse%20Racing%20Companion%20Privacy%20Request">brettcpollak@gmail.com</a>. Include the Installation ID shown in the app’s Settings screen so we can locate the correct record. We may ask for additional information reasonably needed to verify the request.</p>
+          <p>Deleting a service-side installation record may reset complimentary-day status and remove an entitlement linked only to that installation. Apple retains its own purchase records under its policy, and a later valid Restore Purchases request may create a new entitlement record. Deleting server records does not itself clear information stored on your iPhone or in your email account. Some purchase-verification, security, tax, accounting, or legal records may be retained where required or reasonably necessary.</p>
           <p>California residents may also ask what personal information we hold, request correction or deletion, and confirm that we do not sell or share personal information for cross-context behavioral advertising. We will not discriminate against you for making a privacy request.</p>
 
           <h2 id="children">Children</h2>
-          <p>The app is intended for adults of legal wagering age and is not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided information, contact us so we can review and delete it where appropriate.</p>
+          <p>The app is intended only for adults who are of legal wagering age where they use it and is not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided information, contact us so we can review and delete it where appropriate.</p>
 
           <h2>International use</h2>
           <p>The service is operated from the United States. If you use it elsewhere, information may be processed in the United States, subject to applicable law. The app is only intended for use where its informational features and any related wagering activity are lawful.</p>
