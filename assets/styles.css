@@ -377,6 +377,8 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .decision-card.skip > span { background: var(--coral); }
 
 .cream-section { background: var(--cream); }
+.access-single { max-width: 880px; }
+.access-single p:not(.eyebrow) { color: var(--muted); font-size: 20px; }
 .access-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 0.72fr); align-items: center; gap: clamp(50px, 9vw, 120px); }
 .access-card { padding: clamp(28px, 5vw, 52px); border: 1px solid rgba(8, 16, 25, 0.1); border-radius: 32px; background: var(--paper); box-shadow: 0 18px 45px rgba(8, 16, 25, 0.08); }
 .price-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px; margin-bottom: 22px; }
