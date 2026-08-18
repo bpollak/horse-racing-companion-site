@@ -8,10 +8,10 @@
 > Del Mar Thoroughbred Club.
 
 Key facts:
-- Platform: iPhone (iOS). Free this season — every racing day, with nothing
-  to buy in the current version. A one-time, non-renewing season pass may be
-  introduced in a future season only after the model passes live validation;
-  race cards, results, and the how-it-works explanation stay free either way.
+- Platform: iPhone (iOS). The first three racing days are free and include
+  complete recommendations; after that a one-time, non-renewing $19.99 Del Mar
+  season pass unlocks recommendations for the rest of the season. Race cards,
+  results, and the how-it-works explanation stay free without a pass.
 - The analysis uses public information only: morning-line odds and past Del
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
