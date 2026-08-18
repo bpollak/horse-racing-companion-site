@@ -16,8 +16,8 @@ Key facts:
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
   and recommendation confidence is not a win probability.
-- Strong picks are presented as recommended bets; closer races are honestly
-  marked as small plays; genuinely unclear races may show no bet.
+- Standout races are marked as strong plays; genuinely unclear races may
+  show no bet. Confidence is shown as a visual meter, not a win probability.
 - Responsible wagering: for adults of legal wagering age where wagering is
   lawful. Problem-gambling help: https://www.ncpgambling.org/
 
