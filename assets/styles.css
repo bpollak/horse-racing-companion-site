@@ -477,7 +477,9 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .section-heading { margin-bottom: 38px; }
   .step-card,
   .decision-card,
-  .analysis-card { padding: 24px; }
+  .analysis-card { padding: 42px 24px 24px; }
+  .cloth { width: 46px; height: 46px; top: -14px; left: 20px; font-size: 22px; border-radius: 12px; }
+  .cloth::after { inset: 4px; border-radius: 8px; }
   .analysis-card { min-height: auto; }
   .data-tag { margin-bottom: 34px; }
   .analysis-process { padding: 24px; }
