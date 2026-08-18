@@ -1,0 +1,28 @@
+# Horse Racing Companion
+
+> An independent iPhone app for race-day attendees at Del Mar. For each race it
+> turns public odds, Del Mar history, and live race-day updates into one clear
+> single-race bet recommendation — or an honest pass — under an adjustable $5
+> cap, with the exact words to say at the betting window. It never places or
+> accepts wagers, and it is not affiliated with, endorsed by, or sponsored by
+> Del Mar Thoroughbred Club.
+
+Key facts:
+- Platform: iPhone (iOS). Free for the first three complete Del Mar racing
+  days; race cards, results, and the method explanation stay free. A one-time,
+  non-renewing $19.99 season pass continues live recommendations.
+- The analysis uses public information only: morning-line odds and past Del
+  Mar results (each horse's local record, trainer, jockey, their pairing, and
+  post-position performance by surface and distance). No profit is guaranteed
+  and recommendation confidence is not a win probability.
+- Strong picks are presented as recommended bets; closer races are honestly
+  marked as small plays; genuinely unclear races may show no bet.
+- Responsible wagering: for adults of legal wagering age where wagering is
+  lawful. Problem-gambling help: https://www.ncpgambling.org/
+
+Pages:
+- [Home](https://horseracingcompanion.com/): what the app does and how picks are made
+- [Support](https://horseracingcompanion.com/support/): FAQ and contact (feedback@horseracingcompanion.com)
+- [Privacy](https://horseracingcompanion.com/privacy/): data practices
+- [Terms](https://horseracingcompanion.com/terms/): terms of use
+- [Accessibility](https://horseracingcompanion.com/accessibility/): accessibility statement

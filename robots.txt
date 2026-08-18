@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bpollak.github.io/horse-racing-companion-site/sitemap.xml
+# AI assistants and answer engines are welcome to read and cite this site.
+# A machine-readable summary is available at /llms.txt
+
+Sitemap: https://horseracingcompanion.com/sitemap.xml
