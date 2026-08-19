@@ -514,3 +514,17 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .section-heading.narrow .eyebrow::after { margin-left: 0; }
 ::selection { background: var(--teal); color: var(--ink); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; border-radius: 4px; }
+
+/* Featured season hit-rate stat */
+.hitrate-card { position: relative; display: grid; grid-template-columns: auto 1fr; align-items: center; gap: clamp(28px, 4vw, 60px); margin-bottom: 34px; padding: 34px 38px 34px 58px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); overflow: hidden; }
+.hitrate-card::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 22px; background: repeating-conic-gradient(var(--ink) 0% 25%, var(--cream) 0% 50%) 0 0 / 11px 11px; border-right: 1px solid var(--line); }
+.hitrate-number { display: grid; justify-items: center; gap: 2px; }
+.hitrate-number strong { font-size: clamp(72px, 8vw, 118px); line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; color: var(--ink); }
+.hitrate-number span { font-size: 13px; font-weight: 900; letter-spacing: 0.22em; color: var(--teal-dark); }
+.hitrate-copy p { margin: 0 0 10px; color: var(--muted); font-size: 16px; line-height: 1.65; }
+.hitrate-copy p:last-child { margin-bottom: 0; }
+.hitrate-copy strong { color: var(--ink); }
+@media (max-width: 760px) {
+  .hitrate-card { grid-template-columns: 1fr; padding: 30px 24px 26px 44px; text-align: left; }
+  .hitrate-number { justify-items: start; }
+}
