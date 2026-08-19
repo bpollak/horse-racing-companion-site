@@ -447,8 +447,10 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .decision-grid,
   .analysis-grid { grid-template-columns: 1fr; }
   .analysis-heading { grid-template-columns: 1fr; align-items: start; gap: 26px; }
-  .analysis-process { grid-template-columns: 1fr; }
-  .analysis-process i { transform: rotate(90deg); justify-self: center; }
+  .analysis-process { grid-template-columns: 1fr; gap: 12px; padding: 24px 24px 58px; }
+  /* Stacked: connectors drop under the number chips; the finish line moves to the bottom */
+  .analysis-process i { width: 0; height: 30px; border-top: 0; border-left: 3px dashed rgba(66, 198, 177, 0.85); justify-self: start; margin-left: 18px; }
+  .analysis-process::after { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: 26px; border-left: 0; border-top: 1px solid var(--line); background-size: 13px 13px; }
   .step-card { min-height: auto; }
   .step-card.accent-card { transform: none; }
   .step-number { margin-bottom: 34px; }
@@ -486,7 +488,6 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .cloth::after { inset: 4px; border-radius: 8px; }
   .analysis-card { min-height: auto; }
   .data-tag { margin-bottom: 34px; }
-  .analysis-process { padding: 24px; }
   .responsible { width: calc(100% - 28px); padding: 28px; margin-bottom: 54px; }
   .footer-grid,
   .footer-legal { align-items: flex-start; flex-direction: column; }
