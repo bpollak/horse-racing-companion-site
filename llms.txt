@@ -2,8 +2,8 @@
 
 > An independent iPhone app for race-day attendees at Del Mar. For each race it
 > turns public odds, Del Mar history, and live race-day updates into one clear
-> single-race bet recommendation — or an honest pass — under an adjustable $5
-> cap, with the exact words to say at the betting window. It never places or
+> single-race bet recommendation, or an honest pass, with one small ticket up
+> to $5 and the exact words to say at the betting window. It never places or
 > accepts wagers, and it is not affiliated with, endorsed by, or sponsored by
 > Del Mar Thoroughbred Club.
 
