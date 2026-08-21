@@ -21,6 +21,14 @@ Key facts:
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
   and recommendation confidence is not a win probability.
+- The model was developed using more than 1,800 archived Del Mar races with
+  matched official results. Research compares the model's full probability
+  estimates using established measures including log loss and Brier score,
+  and treats short histories cautiously. An independent adversarial audit
+  found no direct current-outcome or future-history leakage and led to seven
+  corrections. It did not establish statistical superiority over the prior
+  model. The formal sealed prospective evaluation has not begun, so the site
+  does not claim a proven betting edge or profitability.
 - Standout races are marked as strong plays; genuinely unclear races may
   show no bet. Confidence is shown as a visual meter, not a win probability.
 - Responsible wagering: for adults of legal wagering age where wagering is

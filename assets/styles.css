@@ -356,6 +356,19 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .analysis-note { max-width: 950px; margin: -4px 0 0; padding-left: 20px; border-left: 4px solid var(--teal); color: var(--muted); font-size: 14px; line-height: 1.75; }
 .analysis-note strong { color: var(--ink); }
 
+.research-section { background: #e4f5f0; }
+.research-heading { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.7fr); align-items: end; gap: clamp(42px, 8vw, 110px); margin-bottom: 48px; }
+.research-heading h2 { max-width: 760px; margin-bottom: 0; }
+.research-heading > p { margin-bottom: 6px; color: #31564f; font-size: 19px; line-height: 1.65; }
+.research-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.research-card { padding: 30px; border: 1px solid rgba(8, 16, 25, 0.13); border-radius: var(--radius); background: rgba(255, 255, 255, 0.72); }
+.research-card > span { display: inline-block; margin-bottom: 34px; color: var(--teal-dark); font-size: 10px; font-weight: 950; letter-spacing: 0.15em; }
+.research-card h3 { margin-bottom: 12px; font-size: 25px; }
+.research-card p { margin-bottom: 0; color: #31564f; }
+.research-caveat { display: grid; grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr); gap: 34px; margin-top: 18px; padding: 30px; border-radius: var(--radius); background: var(--ink); color: var(--cream); }
+.research-caveat strong { align-self: start; color: var(--teal); font-size: 21px; line-height: 1.3; }
+.research-caveat p { margin-bottom: 0; color: #c3ced6; }
+
 .steps-grid,
 .decision-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 
@@ -463,6 +476,9 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .decision-grid,
   .analysis-grid { grid-template-columns: 1fr; }
   .analysis-heading { grid-template-columns: 1fr; align-items: start; gap: 26px; }
+  .research-heading,
+  .research-caveat { grid-template-columns: 1fr; gap: 22px; }
+  .research-grid { grid-template-columns: 1fr; }
   .analysis-process { grid-template-columns: 1fr; gap: 12px; padding: 24px 24px 58px; }
   /* Stacked: connectors drop under the number chips; the finish line moves to the bottom */
   .analysis-process i { width: 0; height: 30px; border-top: 0; border-left: 3px dashed rgba(66, 198, 177, 0.85); justify-self: start; margin-left: 18px; }
@@ -499,7 +515,10 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .section-heading { margin-bottom: 38px; }
   .step-card,
   .decision-card,
-  .analysis-card { padding: 42px 24px 24px; }
+  .analysis-card,
+  .research-card { padding: 42px 24px 24px; }
+  .research-card > span { margin-bottom: 26px; }
+  .research-caveat { padding: 26px 24px; }
   .cloth { width: 46px; height: 46px; top: -14px; left: 20px; font-size: 22px; border-radius: 12px; }
   .cloth::after { inset: 4px; border-radius: 8px; }
   .analysis-card { min-height: auto; }
@@ -526,7 +545,7 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 }
 
 /* Photo-finish stripe: hairline verticals under section eyebrows */
-.section-heading .eyebrow::after, .analysis-heading .eyebrow::after, .access-single .eyebrow::after { content: ""; display: block; width: 76px; height: 9px; margin-top: 12px; border-radius: 3px; background: repeating-linear-gradient(90deg, var(--teal) 0 7px, transparent 7px 12px, var(--ink) 12px 15px, transparent 15px 22px, var(--coral) 22px 26px, transparent 26px 34px); }
+.section-heading .eyebrow::after, .analysis-heading .eyebrow::after, .research-heading .eyebrow::after, .access-single .eyebrow::after { content: ""; display: block; width: 76px; height: 9px; margin-top: 12px; border-radius: 3px; background: repeating-linear-gradient(90deg, var(--teal) 0 7px, transparent 7px 12px, var(--ink) 12px 15px, transparent 15px 22px, var(--coral) 22px 26px, transparent 26px 34px); }
 .section-heading.narrow .eyebrow::after { margin-left: 0; }
 ::selection { background: var(--teal); color: var(--ink); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; border-radius: 4px; }

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Horse Racing Companion — Race-Day Analysis">
-    <meta property="og:description" content="Clear Del Mar horse racing picks backed by public information and live race-day analysis.">
+    <meta property="og:description" content="Del Mar race analysis built from public information, more than 1,800 archived races, and live race-day updates.">
     <meta property="og:url" content="https://horseracingcompanion.com/">
     <meta property="og:image" content="https://horseracingcompanion.com/assets/og-v3.jpg">
     <meta property="og:image:width" content="1200">
@@ -20,7 +20,7 @@
     <meta property="og:image:alt" content="Horse Racing Companion — Horse-racing picks backed by analysis.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Horse Racing Companion — Race-Day Analysis">
-    <meta name="twitter:description" content="Clear Del Mar horse racing picks backed by public information and live race-day analysis.">
+    <meta name="twitter:description" content="Del Mar race analysis built from public information, more than 1,800 archived races, and live race-day updates.">
     <meta name="twitter:image" content="https://horseracingcompanion.com/assets/og-v3.jpg">
     <title>Horse Racing Companion — Del Mar Horse Racing Picks</title>
     <script type="application/ld+json">
@@ -48,6 +48,7 @@
           { "@type": "Question", "name": "What does the season pass purchase?", "acceptedAnswer": { "@type": "Answer", "text": "The season pass unlocks analytical recommendations in the app. It is not a deposit, balance, wagering credit, virtual currency, or payment method for a wager." } },
           { "@type": "Question", "name": "Is recommendation confidence my chance of winning?", "acceptedAnswer": { "@type": "Answer", "text": "No. The confidence meter shows how clearly the available information supports the prediction. Steadier evidence fills more of the meter. It is not a predicted win percentage and does not guarantee an outcome." } },
           { "@type": "Question", "name": "What information does the analysis use?", "acceptedAnswer": { "@type": "Answer", "text": "The current prediction model ranks the active horses using public morning-line odds and past Del Mar results: each horse's local record, its trainer and jockey, their pairing, and post-position performance by surface and distance. Closer to the race, current odds for the leading selection are checked and can affect the final ticket." } },
+          { "@type": "Question", "name": "How is the algorithm backed by research?", "acceptedAnswer": { "@type": "Answer", "text": "The model was developed using more than 1,800 archived Del Mar races with matched official results. Its full probability estimates are compared using established scoring measures, including log loss and Brier score, while short histories are pulled toward a neutral baseline. An independent adversarial audit found no direct current-outcome or future-history leakage and led to seven corrections. The audit did not establish that the current model is statistically superior to the prior model, and neither the research nor the app claims a guaranteed winner, profit, or proven betting edge." } },
           { "@type": "Question", "name": "Why is my recommendation preliminary?", "acceptedAnswer": { "@type": "Answer", "text": "Live odds, scratches, and race changes can alter the calculation. The status tells you what's still updating and when the recommendation is expected to be final." } },
           { "@type": "Question", "name": "Is this an official Del Mar app?", "acceptedAnswer": { "@type": "Answer", "text": "No. Horse Racing Companion is independent and is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred Club." } }
         ]
@@ -62,7 +63,7 @@
         <span>Horse Racing Companion</span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="#analysis">The analysis</a>
+        <a href="#research">Research</a>
         <a href="#how-it-works">How it works</a>
         <a href="support/">Support</a>
       </nav>
@@ -101,9 +102,9 @@
 
       <section class="signal-band" aria-label="Product principles">
         <div class="shell signal-grid">
-          <div><strong>1,800+</strong><span>Del Mar races behind the prediction model</span></div>
+          <div><strong>1,800+</strong><span>archived Del Mar races in the research dataset</span></div>
           <div><strong>Real-time</strong><span>odds, scratches &amp; changes all day</span></div>
-          <div><strong>Proprietary</strong><span>a data-backed prediction model builds each pick</span></div>
+          <div><strong>Audited</strong><span>independent review strengthened how the model is tested</span></div>
           <div><strong>Payout preview</strong><span>what the minimum bet could return</span></div>
           <div><strong>On the record</strong><span>browse every past pick &amp; result</span></div>
         </div>
@@ -153,6 +154,44 @@
         <p class="analysis-note"><strong>You can see the reason behind every pick.</strong> Open a recommendation to review the information that mattered, then check past picks beside the official results. The exact formula remains proprietary, and no analysis can guarantee a winner or a profit.</p>
       </section>
 
+      <section id="research" class="section research-section">
+        <div class="shell">
+          <div class="research-heading">
+            <div>
+              <p class="eyebrow">THE RESEARCH FOUNDATION</p>
+              <h2>How research supports the algorithm</h2>
+            </div>
+            <p>The model was developed using more than 1,800 archived Del Mar races with matched official results. The research evaluates every horse&rsquo;s probability—not only whether the top-ranked horse won—and records the rules needed to reproduce each comparison.</p>
+          </div>
+          <div class="research-grid">
+            <article class="research-card">
+              <span>DATASET</span>
+              <h3>Race cards matched to results</h3>
+              <p>An audit confirmed that all 1,851 archived races used in the research dataset matched an official result and a unique winner. The model uses public race information rather than private betting data.</p>
+            </article>
+            <article class="research-card">
+              <span>SMALL SAMPLES</span>
+              <h3>Short records are treated cautiously</h3>
+              <p>Horse, trainer, jockey, pairing, and post-position history can add context, but limited experience is pulled toward a neutral baseline so a few races do not receive too much weight.</p>
+            </article>
+            <article class="research-card">
+              <span>EVALUATION</span>
+              <h3>More than top-pick accuracy</h3>
+              <p>The research compares full probability estimates using established measures such as log loss and Brier score. It also keeps races from the same card together when resampling, reducing the chance that one unusual day looks like broad evidence.</p>
+            </article>
+            <article class="research-card">
+              <span>NEXT TEST</span>
+              <h3>The rules are frozen before the next test</h3>
+              <p>The current model, historical-data rules, and analysis are versioned and frozen for future prospective monitoring. The formal sealed prospective evaluation has not begun, so the site does not call the model proven or profitable.</p>
+            </article>
+          </div>
+          <div class="research-caveat">
+            <strong>What the research does—and does not—establish</strong>
+            <p>An independent adversarial audit found no direct current-outcome or future-history leakage and led to seven corrections. It also found that retrospective improvement over the prior model was not statistically established. That is why Horse Racing Companion shows recommendations beside official results and never claims a guaranteed winner, profit, or proven betting edge.</p>
+          </div>
+        </div>
+      </section>
+
       <section id="how-it-works" class="section shell section-divider">
         <div class="section-heading narrow">
           <p class="eyebrow">FROM ANALYSIS TO ACTION</p>
@@ -188,7 +227,7 @@
             </div>
           </div>
           <div class="product-copy">
-            <p class="eyebrow teal">BACKED BY RESEARCH AND DATA</p>
+            <p class="eyebrow teal">RESEARCH TRANSLATED FOR RACE DAY</p>
             <h2>What the race screen shows you</h2>
             <div class="feature-list">
               <article>
@@ -233,8 +272,8 @@
         <div class="hitrate-card">
           <div class="hitrate-number"><strong>43%</strong><span>HIT RATE</span></div>
           <div class="hitrate-copy">
-            <p><strong>65 of 151 tickets hit</strong> when the current prediction model is replayed against this season&rsquo;s 19 completed Del Mar race days.</p>
-            <p>Every replay sits next to the official result in the app, so you can check the record yourself. A hit is not a payout guarantee, and past races do not predict future ones.</p>
+            <p><strong>65 of 151 tickets hit</strong> in a retrospective replay of the current prediction model against this season&rsquo;s 19 completed Del Mar race days.</p>
+            <p>Every replay sits next to the official result in the app, so you can check the record yourself. This is not a live prospective result or evidence of profitability. A hit is not a payout guarantee, and past races do not predict future ones.</p>
           </div>
         </div>
         <div class="decision-grid">
@@ -289,6 +328,10 @@
           <details>
             <summary>What information does the analysis use?</summary>
             <p>The current prediction model ranks the active horses using public morning-line odds and past Del Mar results: each horse’s local record, its trainer and jockey, their pairing, and post-position performance by surface and distance. Scratches determine who remains in the comparison. Closer to the race, current odds for the leading selection are checked and can affect the final ticket.</p>
+          </details>
+          <details>
+            <summary>How is the algorithm backed by research?</summary>
+            <p>The model was developed using more than 1,800 archived Del Mar races with matched official results. Its full probability estimates are compared using established scoring measures, including log loss and Brier score, while short histories are pulled toward a neutral baseline. An independent adversarial audit found no direct current-outcome or future-history leakage and led to seven corrections. The audit did not establish that the current model is statistically superior to the prior model, and neither the research nor the app claims a guaranteed winner, profit, or proven betting edge.</p>
           </details>
           <details>
             <summary>Why is my recommendation preliminary?</summary>
