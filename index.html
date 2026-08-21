@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#07111c">
-    <meta name="description" content="Horse Racing Companion turns public odds, Del Mar history, and live race-day updates into clear bet recommendations with the horse numbers and words to use at the window.">
+    <meta name="description" content="Independent Del Mar race analysis with optional ticket suggestions, estimated returns, and teller wording. The app does not accept money, place or transmit wagers, or connect to a betting operator.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://horseracingcompanion.com/">
     <link rel="icon" href="assets/app-icon-v2.png">
@@ -30,7 +30,7 @@
         "name": "Horse Racing Companion",
         "applicationCategory": "SportsApplication",
         "operatingSystem": "iOS",
-        "description": "An independent iPhone companion that turns public odds, Del Mar history, and live race-day updates into clear bet recommendations with the horse numbers and words to use at the window.",
+        "description": "Independent Del Mar race analysis with optional real-world ticket suggestions, adjustable totals up to $5, estimated returns, and teller wording. The app does not accept money, place or transmit wagers, or connect to a betting operator.",
         "url": "https://horseracingcompanion.com/",
         "author": { "@type": "Person", "name": "Brett Pollak" },
         "offers": [
@@ -44,7 +44,8 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Does the app place bets?", "acceptedAnswer": { "@type": "Answer", "text": "No. Horse Racing Companion does not accept deposits, create a wagering account, transmit wagers, or connect to a betting operator. You decide whether to place a wager yourself." } },
+          { "@type": "Question", "name": "Does the app execute or transmit wagers?", "acceptedAnswer": { "@type": "Answer", "text": "No. The app provides wagering advice: it may display an optional real-world ticket, an adjustable suggested total up to $5, a rough estimated return, and teller wording. It does not accept deposits or wagering funds, create a wagering account, hold a wagering balance or credits, execute or transmit a wager, connect to a betting operator, or operate a simulated betting game or virtual bankroll. Any wagering transaction and exchange of wagering funds occur entirely outside the app." } },
+          { "@type": "Question", "name": "What does the season pass purchase?", "acceptedAnswer": { "@type": "Answer", "text": "The season pass unlocks analytical recommendations in the app. It is not a deposit, balance, wagering credit, virtual currency, or payment method for a wager." } },
           { "@type": "Question", "name": "Is recommendation confidence my chance of winning?", "acceptedAnswer": { "@type": "Answer", "text": "No. The confidence meter shows how clearly the available information supports the prediction. Steadier evidence fills more of the meter. It is not a predicted win percentage and does not guarantee an outcome." } },
           { "@type": "Question", "name": "What information does the analysis use?", "acceptedAnswer": { "@type": "Answer", "text": "The current prediction model ranks the active horses using public morning-line odds and past Del Mar results: each horse's local record, its trainer and jockey, their pairing, and post-position performance by surface and distance. Closer to the race, current odds for the leading selection are checked and can affect the final ticket." } },
           { "@type": "Question", "name": "Why is my recommendation preliminary?", "acceptedAnswer": { "@type": "Answer", "text": "Live odds, scratches, and race changes can alter the calculation. The status tells you what's still updating and when the recommendation is expected to be final." } },
@@ -70,8 +71,9 @@
     <main id="main">
       <section class="hero shell">
         <div class="hero-copy">
+          <p class="eyebrow teal">WAGERING ADVICE · NO WAGER EXECUTION OR TRANSMISSION</p>
           <h1>Horse racing picks, backed by <span class="gradient-text">analysis.</span></h1>
-          <p class="hero-lede">Horse Racing Companion turns public odds, Del Mar history, and live race-day updates into one clear recommendation for each race. You get the bet, the horse numbers, and exactly what to say at the window.</p>
+          <p class="hero-lede">Horse Racing Companion turns public odds, Del Mar history, and live race-day updates into one clear recommendation for each race. It may show an optional real-world ticket, horse numbers, an estimated return, and exactly what to say at the window. It does not execute or transmit wagers.</p>
           <div class="hero-actions">
             <a class="button primary" href="#analysis">See how picks are made</a>
             <a class="button secondary" href="support/">Get support</a>
@@ -84,7 +86,11 @@
               <span class="appstore-badge-text"><small>Coming soon to the</small><strong>App Store</strong></span>
             </span>
           </div>
-          <p class="free-note"><strong>Your first three racing days are free.</strong> Then one $19.99 season pass. One payment, no subscription, no automatic renewal.</p>
+          <p class="free-note"><strong>Your first three racing days are free.</strong> Then one $19.99 non-renewing season pass. One payment, no automatic renewal.</p>
+          <div class="analysis-boundary">
+            <strong>No wager is executed or transmitted by the app.</strong>
+            <span>The app provides wagering advice: it may suggest a real-world ticket, let you adjust the suggested total up to $5, estimate a possible return, and provide teller wording. It never accepts deposits or wagering funds, creates a wagering account, holds a wagering balance or credits, or connects to a betting operator. Any wagering transaction and exchange of wagering funds happen entirely outside the app.</span>
+          </div>
         </div>
         <div class="hero-visual" role="img" aria-label="Preview of the Horse Racing Companion Today screen">
           <div class="phone-shell">
@@ -168,7 +174,7 @@
           <article class="step-card">
             <span class="step-number">03</span>
             <h3>Take it to the window</h3>
-            <p>The app gives you the exact track, race, amount, bet type, and program numbers to say, or show, to the teller.</p>
+            <p>The app gives you the exact track, race, amount, bet type, and program numbers to say, or show, to the teller. It does not send the ticket or any money to the track.</p>
           </article>
         </div>
       </section>
@@ -196,7 +202,7 @@
                 <span class="feature-marker">$</span>
                 <div>
                   <h3>What the ticket could pay</h3>
-                  <p>Each pick shows a rough payout on the minimum bet if the ticket wins, based on the current odds.</p>
+                  <p>Each pick shows a rough estimated return on the minimum bet if the ticket wins, based on the current odds. This is informational analysis, not an in-app wager or guaranteed payout.</p>
                 </div>
               </article>
               <article>
@@ -256,7 +262,8 @@
             <p class="eyebrow">SIMPLE PRICING</p>
             <h2>Three racing days free, then one season pass</h2>
             <p>Zero dollars for up to three racing days. Every race, complete recommendations, so you can judge the analysis before paying anything.</p>
-            <p>After that, a single Del Mar season pass ($19.99, one time) unlocks recommendations for the rest of the season. It's a one-time in-app purchase, not a subscription: nothing renews automatically, and Restore Purchases brings it to a new device. Race cards, odds, official results, and the How It Works page stay free without a pass.</p>
+            <p>After that, a single Del Mar season pass ($19.99, one time) unlocks analytical recommendations for the rest of the season. It is a non-renewing in-app season pass: nothing renews automatically, and Restore Purchases brings it to a new device. Race cards, odds, official results, and the How It Works page stay free without a pass.</p>
+            <p><strong>The season pass buys analysis only.</strong> It is not a deposit, wagering balance, betting credit, virtual currency, or payment method for a wager.</p>
           </div>
         </div>
       </section>
@@ -268,8 +275,12 @@
         </div>
         <div class="faq-list">
           <details>
-            <summary>Does the app place bets?</summary>
-            <p>No. Horse Racing Companion does not accept deposits, create a wagering account, transmit wagers, or connect to a betting operator. You decide whether to place a wager yourself.</p>
+            <summary>Does the app execute or transmit wagers?</summary>
+            <p>No. The app provides wagering advice: it may display an optional real-world ticket, let you adjust the suggested total up to $5, show a rough estimated return, and provide teller wording. It does not accept deposits or wagering funds, create a wagering account, hold a wagering balance or credits, execute or transmit a wager, connect to a betting operator, or operate a simulated betting game or virtual bankroll. Any wagering transaction and exchange of wagering funds occur entirely outside the app.</p>
+          </details>
+          <details>
+            <summary>What does the season pass purchase?</summary>
+            <p>The season pass unlocks analytical recommendations in the app. It is not a deposit, balance, wagering credit, virtual currency, or payment method for a wager.</p>
           </details>
           <details>
             <summary>Is recommendation confidence my chance of winning?</summary>
@@ -314,7 +325,7 @@
       </div>
       <div class="shell footer-legal">
         <p>© 2026 Brett Pollak. All rights reserved.</p>
-        <p>Informational analysis only. No outcome or profit is guaranteed.</p>
+        <p>No wager is executed or transmitted by the app. No outcome or profit is guaranteed.</p>
       </div>
     </footer>
   </body>
