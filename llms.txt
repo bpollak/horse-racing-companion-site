@@ -2,16 +2,21 @@
 
 > An independent iPhone app for race-day attendees at Del Mar. For each race it
 > turns public odds, Del Mar history, and live race-day updates into one clear
-> single-race bet recommendation, or an honest pass, with one small ticket up
-> to $5 and the exact words to say at the betting window. It never places or
-> accepts wagers, and it is not affiliated with, endorsed by, or sponsored by
-> Del Mar Thoroughbred Club.
+> single-race wagering recommendation, or an honest pass, with one suggested
+> real-world ticket up to $5, a rough estimated return, and the exact words to
+> say at the betting window. It does not accept wagering funds, execute or
+> transmit wagers, connect to a betting operator, or operate a simulated betting
+> game or virtual bankroll. Any wagering transaction happens outside the app.
+> It is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred
+> Club.
 
 Key facts:
 - Platform: iPhone (iOS). The first three racing days are free and include
   complete recommendations; after that a one-time, non-renewing $19.99 Del Mar
-  season pass unlocks recommendations for the rest of the season. Race cards,
-  results, and the how-it-works explanation stay free without a pass.
+  season pass unlocks analytical recommendations for the rest of
+  the season. The pass is not a deposit, wagering balance, credit, virtual
+  currency, or payment method for a wager. Race cards, results, and the
+  how-it-works explanation stay free without a pass.
 - The analysis uses public information only: morning-line odds and past Del
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed

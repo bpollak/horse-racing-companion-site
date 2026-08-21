@@ -244,6 +244,22 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .free-note { max-width: 600px; color: #aebdca; font-size: 14px; line-height: 1.55; }
 .free-note strong { color: var(--cream); }
 
+.analysis-boundary {
+  display: grid;
+  gap: 6px;
+  max-width: 650px;
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 217, 255, 0.42);
+  border-radius: 18px;
+  background: rgba(7, 17, 28, 0.82);
+  box-shadow: 0 14px 42px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(14px);
+}
+
+.analysis-boundary strong { color: var(--cyan); font-size: 16px; }
+.analysis-boundary span { color: #d5dee6; font-size: 14px; line-height: 1.55; }
+
 .hero-visual { position: relative; justify-self: center; width: min(390px, 100%); }
 
 .phone-shell {
