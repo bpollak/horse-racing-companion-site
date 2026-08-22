@@ -12,9 +12,10 @@
 
 Key facts:
 - Platform: iPhone (iOS). The first three racing days are free and include
-  complete recommendations; after that a one-time, non-renewing $19.99 Del Mar
-  season pass unlocks analytical recommendations for the rest of
-  the season. The pass is not a deposit, wagering balance, credit, virtual
+  complete recommendations. After that, the app may offer one non-renewing
+  pass for the displayed Del Mar season. The app and App Store show the exact
+  price and access end date before purchase, and the pass never renews
+  automatically. It is not a deposit, wagering balance, credit, virtual
   currency, or payment method for a wager. Race cards, results, and the
   how-it-works explanation stay free without a pass.
 - The analysis uses public information only: morning-line odds and past Del
