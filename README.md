@@ -12,6 +12,9 @@ Stable App Store Connect URLs:
 - Privacy choices: `https://horseracingcompanion.com/privacy/#choices`
 - Terms: `https://horseracingcompanion.com/terms/`
 - Accessibility: `https://horseracingcompanion.com/accessibility/`
+- Age suitability: `https://horseracingcompanion.com/age-suitability/`
+- Service status: `https://horseracingcompanion.com/service-status/`
+- App Review information: `https://horseracingcompanion.com/review-information/`
 
 The public site is mirrored to the `main` branch of the dedicated public
 `bpollak/horse-racing-companion-site` repository. The application and algorithm

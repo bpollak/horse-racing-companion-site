@@ -3,8 +3,8 @@
 > An independent iPhone app for race-day attendees at Del Mar. For each race it
 > turns public odds, Del Mar history, and live race-day updates into one clear
 > single-race wagering recommendation, or an honest pass, with one suggested
-> real-world ticket up to $5, a rough estimated return, and the exact words to
-> say at the betting window. It does not accept wagering funds, execute or
+> model selection, probabilities, confidence, and supporting factors. It does
+> not accept wagering funds, execute or
 > transmit wagers, connect to a betting operator, or operate a simulated betting
 > game or virtual bankroll. Any wagering transaction happens outside the app.
 > It is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred
