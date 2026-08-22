@@ -31,6 +31,10 @@ Key facts:
   does not claim a proven betting edge or profitability.
 - Standout races are marked as strong plays; genuinely unclear races may
   show no bet. Confidence is shown as a visual meter, not a win probability.
+- Live recommendations normally begin about two hours before the day's first
+  race. The app shows that day's expected opening time. Before then,
+  "Recommendations Open Later" is a normal scheduled state; "Live Updates
+  Delayed" is reserved for missing fresh data after the window opens.
 - Responsible wagering: for adults of legal wagering age where wagering is
   lawful. Problem-gambling help: https://www.ncpgambling.org/
 

@@ -48,6 +48,7 @@
           { "@type": "Question", "name": "What does the season pass purchase?", "acceptedAnswer": { "@type": "Answer", "text": "The season pass unlocks analytical recommendations in the app. It is not a deposit, balance, wagering credit, virtual currency, or payment method for a wager." } },
           { "@type": "Question", "name": "Is recommendation confidence my chance of winning?", "acceptedAnswer": { "@type": "Answer", "text": "No. The confidence meter shows how clearly the available information supports the prediction. Steadier evidence fills more of the meter. It is not a predicted win percentage and does not guarantee an outcome." } },
           { "@type": "Question", "name": "What information does the analysis use?", "acceptedAnswer": { "@type": "Answer", "text": "The current prediction model ranks the active horses using public morning-line odds and past Del Mar results: each horse's local record, its trainer and jockey, their pairing, and post-position performance by surface and distance. Closer to the race, current odds for the leading selection are checked and can affect the final ticket." } },
+          { "@type": "Question", "name": "When do live recommendations begin?", "acceptedAnswer": { "@type": "Answer", "text": "The app starts checking live odds about two hours before the day's first race and shows the expected opening time on the Races screen. Before then, Recommendations Open Later is a normal scheduled state, not a data error." } },
           { "@type": "Question", "name": "How is the algorithm backed by research?", "acceptedAnswer": { "@type": "Answer", "text": "The model was developed using more than 1,800 archived Del Mar races with matched official results. Its full probability estimates are compared using established scoring measures, including log loss and Brier score, while short histories are pulled toward a neutral baseline. An independent adversarial audit found no direct current-outcome or future-history leakage and led to seven corrections. The audit did not establish that the current model is statistically superior to the prior model, and neither the research nor the app claims a guaranteed winner, profit, or proven betting edge." } },
           { "@type": "Question", "name": "Why is my recommendation preliminary?", "acceptedAnswer": { "@type": "Answer", "text": "Live odds, scratches, and race changes can alter the calculation. The status tells you what's still updating and when the recommendation is expected to be final." } },
           { "@type": "Question", "name": "Is this an official Del Mar app?", "acceptedAnswer": { "@type": "Answer", "text": "No. Horse Racing Companion is independent and is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred Club." } }
@@ -103,7 +104,7 @@
       <section class="signal-band" aria-label="Product principles">
         <div class="shell signal-grid">
           <div><strong>1,800+</strong><span>archived Del Mar races in the research dataset</span></div>
-          <div><strong>Real-time</strong><span>odds, scratches &amp; changes all day</span></div>
+          <div><strong>Real-time</strong><span>odds, scratches &amp; changes starting near first post</span></div>
           <div><strong>Audited</strong><span>independent review strengthened how the model is tested</span></div>
           <div><strong>Payout preview</strong><span>what the minimum bet could return</span></div>
           <div><strong>On the record</strong><span>browse every past pick &amp; result</span></div>
@@ -197,7 +198,7 @@
           <p class="eyebrow">FROM ANALYSIS TO ACTION</p>
           <h2>Three steps on race day</h2>
           <p>You don't need to know the jargon or sort through every number yourself. The app keeps the pick, horse numbers, total cost, timing, and explanation in one place.</p>
-          <p>Download before race day and get familiar on a dark day. Past picks, results, and the method are free to browse. Every pick uses real-time odds, scratches, and race changes right up to post time, so the recommendation sharpens as the race gets closer and the final calculation locks in near post.</p>
+          <p>Download before race day and get familiar on a dark day. Past picks, results, and the method are free to browse. Live recommendations begin about two hours before the day&rsquo;s first race; the Races screen shows the expected opening time. From then through post time, each pick uses current odds, scratches, and race changes, so the recommendation sharpens as the race gets closer and the final calculation locks in near post.</p>
         </div>
         <div class="steps-grid">
           <article class="step-card">
@@ -328,6 +329,10 @@
           <details>
             <summary>What information does the analysis use?</summary>
             <p>The current prediction model ranks the active horses using public morning-line odds and past Del Mar results: each horse’s local record, its trainer and jockey, their pairing, and post-position performance by surface and distance. Scratches determine who remains in the comparison. Closer to the race, current odds for the leading selection are checked and can affect the final ticket.</p>
+          </details>
+          <details>
+            <summary>When do live recommendations begin?</summary>
+            <p>The app starts checking live odds about two hours before the day&rsquo;s first race and shows the expected opening time on the Races screen. Before then, <strong>Recommendations Open Later</strong> is the normal scheduled state, not a data error. If fresh information is unavailable after that window opens, the app switches to <strong>Live Updates Delayed</strong> and continues checking automatically.</p>
           </details>
           <details>
             <summary>How is the algorithm backed by research?</summary>
