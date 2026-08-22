@@ -2,7 +2,7 @@
 
 > An independent iPhone app for race-day attendees at Del Mar. For each race it
 > turns public odds, Del Mar history, and live race-day updates into one clear
-> single-race wagering recommendation, or an honest pass, with one suggested
+> single-race wagering recommendation, or an honest pass, with one model
 > model selection, probabilities, confidence, and supporting factors. It does
 > not accept wagering funds, execute or
 > transmit wagers, connect to a betting operator, or operate a simulated betting
@@ -21,7 +21,7 @@ Key facts:
 - The analysis uses public information only: morning-line odds and past Del
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
-  and recommendation confidence is not a win probability.
+  and analysis confidence is not a win probability.
 - The model was developed using more than 1,800 archived Del Mar races with
   matched official results. Research compares the model's full probability
   estimates using established measures including log loss and Brier score,
@@ -30,8 +30,15 @@ Key facts:
   corrections. It did not establish statistical superiority over the prior
   model. The formal sealed prospective evaluation has not begun, so the site
   does not claim a proven betting edge or profitability.
-- Standout races are marked as strong plays; genuinely unclear races may
-  show no bet. Confidence is shown as a visual meter, not a win probability.
+- Predictions are explicitly labeled by outcome type, including Win, Place,
+  or Show where applicable. The strongest model signal is highlighted;
+  genuinely unclear races may show no model selection. Analysis confidence is
+  shown as a visual meter, not a win probability. Race detail may show an
+  estimated total return for the track's minimum stake using current odds;
+  final pools and post-time odds determine any actual payout.
+- There is no adjustable stake control, teller wording, betting-window
+  instruction, wagering account, deposit flow, operator connection, or wager
+  execution or transmission.
 - Live recommendations normally begin about two hours before the day's first
   race. The app shows that day's expected opening time. Before then,
   "Recommendations Open Later" is a normal scheduled state; "Live Updates
