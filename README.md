@@ -27,6 +27,9 @@ Season and review maintenance:
   the exact season, price, and access end date shown before purchase.
 - Keep retrospective performance headlines off the marketing page unless they
   are dated, versioned, economically complete, and approved for publication.
+- The initial live record was approved for publication on 2026-08-23. Keep its
+  date range, model/policy version, denominator, match definition, passes, and
+  hypothetical minimum-stake return together whenever the headline is updated.
 - Keep the full DMTC non-affiliation statement and no-wager boundary on every
   public page.
 - Leave the App Store badge as “Coming soon” until the listing is live, then
