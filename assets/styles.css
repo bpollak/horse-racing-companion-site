@@ -390,6 +390,7 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 
 .dark-section { overflow: hidden; background: var(--ink); color: var(--cream); }
 .product-split { display: grid; grid-template-columns: minmax(340px, 0.84fr) minmax(0, 1fr); align-items: center; gap: clamp(60px, 10vw, 140px); }
+.product-split.copy-only { grid-template-columns: minmax(0, 760px); justify-content: center; }
 .screen-stack { position: relative; width: min(390px, 100%); justify-self: center; }
 .detail-phone { max-height: 700px; }
 .detail-phone img { transform: translateY(-1px); }

@@ -2,8 +2,8 @@
 
 > An independent iPhone app for race-day attendees at Del Mar. For each race it
 > turns public odds, Del Mar history, and live race-day updates into one clear
-> single-race wagering recommendation, or an honest pass, with one model
-> model selection, probabilities, confidence, and supporting factors. It does
+> single-race pick, or an honest no-pick explanation, with one clear
+> pick, estimated chances, confidence, and supporting factors. It does
 > not accept wagering funds, execute or
 > transmit wagers, connect to a betting operator, or operate a simulated betting
 > game or virtual bankroll. Any wagering transaction happens outside the app.
@@ -12,7 +12,7 @@
 
 Key facts:
 - Platform: iPhone (iOS). The first three racing days are free and include
-  complete recommendations. After that, the app may offer one non-renewing
+  complete race-day picks. After that, the app may offer one non-renewing
   pass for the displayed Del Mar season. The app and App Store show the exact
   price and access end date before purchase, and the pass never renews
   automatically. It is not a deposit, wagering balance, credit, virtual
@@ -21,7 +21,7 @@ Key facts:
 - The analysis uses public information only: morning-line odds and past Del
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
-  and analysis confidence is not a win probability.
+  and pick confidence is not a win probability.
 - The model was developed using more than 1,800 archived Del Mar races with
   matched official results. Research compares the model's full probability
   estimates using established measures including log loss and Brier score,
@@ -32,16 +32,16 @@ Key facts:
   does not claim a proven betting edge or profitability.
 - Predictions are explicitly labeled by outcome type, including Win, Place,
   or Show where applicable. The strongest model signal is highlighted;
-  genuinely unclear races may show no model selection. Analysis confidence is
+  genuinely unclear races may show no pick with a specific reason. Pick confidence is
   shown as a visual meter, not a win probability. Race detail may show an
   estimated total return for the track's minimum stake using current odds;
   final pools and post-time odds determine any actual payout.
 - There is no adjustable stake control, teller wording, betting-window
   instruction, wagering account, deposit flow, operator connection, or wager
   execution or transmission.
-- Live recommendations normally begin about two hours before the day's first
+- Live picks normally begin about two hours before the day's first
   race. The app shows that day's expected opening time. Before then,
-  "Recommendations Open Later" is a normal scheduled state; "Live Updates
+  "Live Picks Open Later" is a normal scheduled state; "Live Updates
   Delayed" is reserved for missing fresh data after the window opens.
 - Responsible wagering: for adults of legal wagering age where wagering is
   lawful. Problem-gambling help: https://www.ncpgambling.org/
