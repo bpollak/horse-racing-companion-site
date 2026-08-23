@@ -370,20 +370,6 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .record-secondary strong { color: var(--teal); font-size: 24px; }
 .record-secondary span { color: #aebac3; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.07em; }
 
-.live-record-method {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: minmax(190px, 0.3fr) minmax(0, 1fr);
-  gap: 30px;
-  padding: 24px 28px;
-  border-left: 4px solid var(--teal);
-  border-radius: 0 18px 18px 0;
-  background: rgba(255, 255, 255, 0.055);
-}
-
-.live-record-method strong { color: var(--teal); font-size: 18px; }
-.live-record-method p { margin: 0; color: #aebac3; font-size: 13px; line-height: 1.7; }
-
 .section { padding-block: clamp(76px, 8vw, 108px); }
 /* Hairline delineator for the one seam where two paper sections meet;
    every other section boundary is already delineated by a background change. */
@@ -543,7 +529,6 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .research-caveat { grid-template-columns: 1fr; gap: 22px; }
   .live-record-panel { grid-template-columns: 1fr; }
   .live-record-stats { width: min(100%, 560px); }
-  .live-record-method { grid-template-columns: 1fr; gap: 8px; }
   .research-grid { grid-template-columns: 1fr; }
   .analysis-process { grid-template-columns: 1fr; gap: 12px; padding: 24px 24px 58px; }
   /* Stacked: connectors drop under the number chips; the finish line moves to the bottom */
@@ -581,7 +566,6 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .record-secondary { grid-template-columns: 1fr; }
   .record-secondary div { grid-template-columns: 48px 1fr; align-items: center; border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
   .record-secondary div:last-child { border-bottom: 0; }
-  .live-record-method { padding: 22px 20px; }
   .section { padding-block: 82px; }
   .section-heading { margin-bottom: 38px; }
   .step-card,
