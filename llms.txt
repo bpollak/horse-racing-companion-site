@@ -44,8 +44,8 @@ Key facts:
   "Live Picks Open Later" is a normal scheduled state; "Live Updates
   Delayed" is reserved for missing fresh data after the window opens.
 - Initial live record through August 22, 2026: 10 of 23 finalized pre-race
-  picks matched their published result type (43.5%) across 36 settled races;
-  the app passed the other 13 races instead of forcing a pick. All picks use
+  picks matched their published result type (43.5%) across 27 settled races;
+  the app passed the other 4 races instead of forcing a pick. All picks use
   model v0.4 + ticket policy v0.4 and were frozen before the official finish.
   At track minimum stakes, the 23 picks represented $47 in hypothetical cost
   and $31.10 in official returns (-33.8% hypothetical ROI). This small sample
