@@ -16,23 +16,6 @@ Stable App Store Connect URLs:
 - Service status: `https://horseracingcompanion.com/service-status/`
 - App Review information: `https://horseracingcompanion.com/review-information/`
 
-## Visual direction
-
-The public site uses an editorial race-program identity: ink and paper surfaces,
-serif display type, ruled lists, saddle-cloth numbers, and scoreboard-like data.
-Keep the layout product-specific and left-led rather than falling back to a
-generic software landing-page template.
-
-- Do not use decorative purple/blue gradients, glow effects, glassmorphism,
-  blurred translucent panels, pill-shaped calls to action, or repeated grids of
-  interchangeable rounded cards.
-- Use flat colors, rules, and spacing to establish hierarchy. Reserve rounded
-  geometry for objects that are genuinely rounded, such as the iPhone frame,
-  app icon, and official App Store badge.
-- Prefer real app screens and racing-specific visual cues over stock dashboard
-  mockups, generic illustrations, emoji feature icons, or vague decorative art.
-- Keep headings and calls to action concrete and consumer-facing.
-
 The public site is mirrored to the `main` branch of the dedicated public
 `bpollak/horse-racing-companion-site` repository. The application and algorithm
 source remain private. To preview locally, serve the `website` directory with
