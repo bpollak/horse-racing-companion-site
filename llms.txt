@@ -1,12 +1,12 @@
 # Horse Racing Companion
 
-> An independent iPhone app for race-day attendees at Del Mar. For each race it
-> turns public odds, Del Mar history, and live race-day updates into one clear
-> single-race pick, or an honest no-pick explanation, with one clear
-> pick, estimated chances, confidence, and supporting factors. It does
-> not accept wagering funds, execute or
-> transmit wagers, connect to a betting operator, or operate a simulated betting
-> game or virtual bankroll. Any wagering transaction happens outside the app.
+> An independent iPhone app for Del Mar race days. It turns public odds,
+> relevant Del Mar history, scratches, and live race-day updates into one clear
+> pick for nearly every race, with estimated chances, confidence, and reasons
+> that are easy to understand. It also explains when a race is too unclear for
+> a pick and saves every final pick beside the official result. It does not
+> accept wagering funds, place or send wagers, or connect to a betting operator.
+> Any wagering transaction happens outside the app.
 > It is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred
 > Club.
 
@@ -22,16 +22,8 @@ Key facts:
   Mar results (each horse's local record, trainer, jockey, their pairing, and
   post-position performance by surface and distance). No profit is guaranteed
   and pick confidence is not a win probability.
-- The model was developed using more than 1,800 archived Del Mar races with
-  matched official results. Research compares the model's full probability
-  estimates using established measures including log loss and Brier score,
-  and treats short histories cautiously. An independent adversarial audit
-  found no direct current-outcome or future-history leakage and led to seven
-  corrections. It did not establish statistical superiority over the prior
-  model. The formal sealed prospective evaluation has not begun, so the site
-  does not claim a proven betting edge or profitability.
 - Predictions are explicitly labeled by outcome type, including Win, Place,
-  or Show where applicable. The strongest model signal is highlighted;
+  or Show where applicable. The strongest pick is highlighted;
   genuinely unclear races may show no pick with a specific reason. Pick confidence is
   shown as a visual meter, not a win probability. Race detail may show an
   estimated total return for the track's minimum stake using current odds;
@@ -45,11 +37,9 @@ Key facts:
   Delayed" is reserved for missing fresh data after the window opens.
 - Initial live record through August 22, 2026: 10 of 23 finalized pre-race
   picks matched their published result type (43.5%) across 27 settled races;
-  the app passed the other 4 races instead of forcing a pick. All picks use
-  model v0.4 + ticket policy v0.4 and were frozen before the official finish.
-  At track minimum stakes, the 23 picks represented $47 in hypothetical cost
-  and $31.10 in official returns (-33.8% hypothetical ROI). This small sample
-  does not establish profitability or a proven betting edge.
+  the app passed the other 4 races instead of forcing a pick. Every pick was
+  saved before the official finish was known. This small sample does not
+  establish profitability or a proven betting edge.
 - Responsible wagering: for adults of legal wagering age where wagering is
   lawful. Problem-gambling help: https://www.ncpgambling.org/
 
