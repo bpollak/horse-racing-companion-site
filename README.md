@@ -29,7 +29,9 @@ Season and review maintenance:
   are dated, versioned, economically complete, and approved for publication.
 - The initial live record was approved for publication on 2026-08-23. Keep its
   date range, model/policy version, denominator, match definition, passes, and
-  hypothetical minimum-stake return together whenever the headline is updated.
+  small-sample caveat together whenever the headline is updated. Do not publish
+  cost, return, profit/loss, or other monetary performance figures unless the
+  owner explicitly asks for them.
 - Keep the full DMTC non-affiliation statement and no-wager boundary on every
   public page.
 - Leave the App Store badge as “Coming soon” until the listing is live, then
