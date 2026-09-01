@@ -36,10 +36,10 @@ Key facts:
   race. The app shows that day's expected opening time. Before then,
   "Live Picks Open Later" is a normal scheduled state; "Live Updates
   Delayed" is reserved for missing fresh data after the window opens.
-- Live record across four tracked cards on August 20–22 and August 27, 2026:
-  14 of 31 finalized pre-race picks matched their published result type (45.2%)
-  across 35 settled races; the app passed the other 4 races instead of forcing
-  a pick. Every pick was saved before the official finish was known. All four
+- Live record across six tracked cards from August 20 through August 29, 2026:
+  16 of 38 finalized pre-race picks matched their published result type (42.1%)
+  across 53 settled races; the app passed the other 15 races rather than forcing
+  a pick. Every pick was saved before the official finish was known. All six
   cards used public-card v0.4 with ticket-policy v0.4. This small sample does
   not establish profitability or a proven betting edge.
 - Responsible wagering: for adults of legal wagering age where wagering is
