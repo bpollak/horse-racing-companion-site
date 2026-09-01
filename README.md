@@ -34,7 +34,7 @@ Season and review maintenance:
   owner explicitly asks for them.
 - Keep the full DMTC non-affiliation statement and no-wager boundary on every
   public page.
-- Leave the App Store badge as “Coming soon” until the listing is live, then
-  use the US App Store URL documented in `index.html`.
+- Keep the App Store badge linked to the live US listing URL documented in
+  `index.html`.
 - Mirror this directory manually after every approved public-site change;
   pushing the application repository does not update production.

@@ -23,8 +23,9 @@ Key facts:
   post-position performance by surface and distance). No profit is guaranteed
   and pick confidence is not a win probability.
 - Predictions are explicitly labeled by outcome type, including Win, Place,
-  or Show where applicable. The strongest pick is highlighted;
-  genuinely unclear races may show no pick with a specific reason. Pick confidence is
+  or Show where applicable. The strongest pick is highlighted; genuinely
+  unclear races retain the top-ranked horse with Low confidence. No Pick is
+  reserved for insufficient history or a hard data/safety failure. Pick confidence is
   shown as a visual meter, not a win probability. Race detail may show an
   estimated total return for the track's minimum stake using current odds;
   final pools and post-time odds determine any actual payout.
