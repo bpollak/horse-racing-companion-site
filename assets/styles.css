@@ -604,3 +604,8 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .section-heading.narrow .eyebrow::after { margin-left: 0; }
 ::selection { background: var(--teal); color: var(--ink); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; border-radius: 4px; }
+
+/* Founder story: both paragraphs share one body style; the dark callout carries the signature. */
+.section-heading.story { margin-bottom: 8px; }
+.section-heading.story > p:not(.eyebrow) { max-width: 900px; margin-bottom: 18px; color: var(--muted); font-size: 19px; line-height: 1.65; }
+#why-it-exists .research-caveat { margin-top: 24px; }
