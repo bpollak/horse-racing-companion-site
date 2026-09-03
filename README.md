@@ -36,5 +36,9 @@ Season and review maintenance:
   public page.
 - Keep the App Store badge linked to the live US listing URL documented in
   `index.html`.
+- The service-status page names the next meet and its dates. Verify them
+  against Del Mar's official monthly calendars (`dmtc.com/racing/<year>/<month>`)
+  before publishing; the Bing Crosby Season dates (Nov 6–29, 2026) were checked
+  on 2026-09-02.
 - Mirror this directory manually after every approved public-site change;
   pushing the application repository does not update production.

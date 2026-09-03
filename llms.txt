@@ -1,59 +1,69 @@
 # Horse Racing Companion
 
-> An independent iPhone app for Del Mar race days. It turns public odds,
-> relevant Del Mar history, scratches, and live race-day updates into one clear
-> pick per race, with estimated chances, confidence, and reasons that are easy
-> to understand. When a race does not support a pick, it says so plainly. It
-> saves every final pick beside the official result. It does not
-> accept wagering funds, place or send wagers, or connect to a betting operator.
-> Any wagering transaction happens outside the app.
-> It is not affiliated with, endorsed by, or sponsored by Del Mar Thoroughbred
-> Club.
+> An independent iPhone app for Del Mar race days. One pick per race (Win,
+> Show, or a three-horse Trifecta box), every horse's estimated win chance, a
+> confidence level, and the reasons. Picks are saved about two minutes before
+> post and shown beside the official result. No pick when Del Mar history is
+> too thin, odds cannot be confirmed by the cutoff, or a late scratch leaves no
+> safe replacement. The app does not accept wagering funds, place or send
+> wagers, or connect to a betting operator. Not affiliated with, endorsed by,
+> or sponsored by Del Mar Thoroughbred Club.
 
 Key facts:
 - Platform: iPhone (iOS). Available in the US App Store since September 1, 2026:
   https://apps.apple.com/us/app/horse-racing-companion/id6802113749
-- The first three racing days are free and include
-  complete race-day picks. After that, the app may offer one non-renewing
-  pass for the displayed Del Mar season. The app and App Store show the exact
-  price and access end date before purchase, and the pass never renews
-  automatically. It is not a deposit, wagering balance, credit, virtual
-  currency, or payment method for a wager. Race cards, results, and the
-  how-it-works explanation stay free without a pass.
-- The analysis uses public information only: morning-line odds and past Del
-  Mar results (each horse's local record, trainer, jockey, their pairing, and
-  post-position performance by surface and distance). No profit is guaranteed
-  and pick confidence is not a win probability.
-- Predictions are explicitly labeled by outcome type, including Win, Place,
-  or Show where applicable. The strongest pick is highlighted; genuinely
-  unclear races retain the top-ranked horse with Low confidence. No Pick is
-  reserved for insufficient history or a hard data/safety failure. Pick confidence is
-  shown as a visual meter, not a win probability. Race detail may show an
-  estimated total return for the track's minimum stake using current odds;
-  final pools and post-time odds determine any actual payout.
+- Screens: Races (the day's card, post times, surface, distance, next race
+  first, other race days selectable), Race (the pick, confidence, reasons, and
+  every horse with jockey, trainer, weight, current odds or morning line, and
+  estimated win chance; scratched horses crossed out; a rough estimated return
+  on the $2 minimum bet from current odds), Results (per race day: picks that
+  matched, did not match, or had no pick, each beside the official top
+  finishers), How It Works (the method), and Settings (free days, season pass,
+  Restore Purchases, optional reminders about an hour before first post).
+- No account or sign-in. A random installation ID, shown in Settings, tracks
+  free days and the season pass.
+- The first three racing days are free and include every pick on that day's
+  card. A free day is used when the user taps "Use a Free Day" and confirms.
+  After that, the app offers one non-renewing season pass for the rest of the
+  current Del Mar season. The app and App Store show the exact price and access
+  end date before purchase. The pass is not a deposit, wagering balance,
+  credit, virtual currency, or payment method for a wager. Race cards, odds,
+  results, past picks, and How It Works are free without a pass.
+- The analysis uses public information only: morning-line and current odds
+  and past Del Mar results (each horse's Del Mar record, trainer, jockey, that
+  trainer-jockey pairing, and post-position performance by surface and
+  distance). Scratched horses are removed first. No profit is guaranteed and
+  pick confidence (Low, Medium, High) is how steady the pick is, not a win
+  probability.
+- Pick types: Win (the horse finishes first), Show (the horse finishes in the
+  top three), or a three-horse Trifecta box (the three horses fill the top
+  three in any order). The clearest picks carry a "Strongest pick" badge. A
+  close race still gets a pick, marked Low confidence. No pick is shown only
+  for insufficient Del Mar history, odds that cannot be confirmed before the
+  cutoff, or a late scratch with no safe replacement.
 - There is no adjustable stake control, teller wording, betting-window
   instruction, wagering account, deposit flow, operator connection, or wager
   execution or transmission.
-- Live picks normally begin about two hours before the day's first
-  race. The app shows that day's expected opening time. Before then,
-  "Live Picks Open Later" is a normal scheduled state; "Live Updates
-  Delayed" is reserved for missing fresh data after the window opens.
+- Live picks normally begin about two hours before the day's first race. The
+  app shows that day's expected opening time. Before then, "Live Picks Open
+  Later" is a normal scheduled state; "Live Updates Delayed" is reserved for
+  missing fresh data after the window opens. A pick is "Early" until about two
+  minutes before post, then "Final".
 - Live record across six tracked cards from August 20 through August 29, 2026:
-  16 of 38 finalized pre-race picks matched their published result type (42.1%)
-  across 53 settled races; the app passed the other 15 races rather than forcing
-  a pick. Every pick was saved before the official finish was known. All six
-  cards used public-card v0.4 with ticket-policy v0.4. This small sample does
-  not establish profitability or a proven betting edge.
+  16 of 38 final pre-race picks matched their published result type (42.1%)
+  across 53 settled races; the app made no pick in the other 15 races. Every
+  pick was saved before the official finish was known. All six cards used
+  public-card v0.4 with ticket-policy v0.4. This small sample does not
+  establish profitability or a proven betting edge.
 - Why it was built: the developer, Brett Pollak, found the betting window the
   hardest part of a Del Mar race day and saw most attendees choosing horses
   by paddock impressions, colors, or lucky numbers. The app applies the same
-  public data and the same rules to every race and says plainly when a race
-  does not support a pick.
+  public data and the same rules to every race.
 - Responsible wagering: for adults of legal wagering age where wagering is
   lawful. Problem-gambling help: https://www.ncpgambling.org/
 
 Pages:
-- [Home](https://horseracingcompanion.com/): what the app does and how picks are made
+- [Home](https://horseracingcompanion.com/): what the app shows and how picks are made
 - [Support](https://horseracingcompanion.com/support/): FAQ and contact (feedback@horseracingcompanion.com)
 - [Privacy](https://horseracingcompanion.com/privacy/): data practices
 - [Terms](https://horseracingcompanion.com/terms/): terms of use
