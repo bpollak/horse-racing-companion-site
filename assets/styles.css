@@ -105,8 +105,8 @@ summary:focus-visible {
   position: relative;
   isolation: isolate;
   display: grid;
-  grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.78fr);
-  align-items: start;
+  grid-template-columns: minmax(0, 1.02fr) minmax(340px, 0.78fr);
+  align-items: stretch;
   gap: clamp(52px, 8vw, 118px);
   min-height: 760px;
   padding-block: 56px 80px;
@@ -137,7 +137,9 @@ summary:focus-visible {
     linear-gradient(180deg, rgba(7, 17, 28, 0.04), rgba(7, 17, 28, 0.38));
 }
 
-.hero-copy { max-width: 670px; padding-top: 0; }
+.hero-copy { display: flex; flex-direction: column; justify-content: space-between; max-width: 670px; padding-top: 0; }
+.hero-copy .hero-lede { margin-bottom: 40px; }
+.hero-actions { margin-top: auto; }
 
 .eyebrow,
 .access-kicker {
@@ -195,7 +197,7 @@ h3 { line-height: 1.18; letter-spacing: -0.025em; }
 
 .hero-lede strong { color: var(--cream); }
 
-.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 0; }
 
 .button {
   display: inline-flex;
@@ -261,7 +263,7 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
 .analysis-boundary strong { color: var(--cyan); font-size: 16px; }
 .analysis-boundary span { color: #d5dee6; font-size: 14px; line-height: 1.55; }
 
-.hero-visual { position: relative; justify-self: center; width: min(390px, 100%); }
+.hero-visual { position: relative; justify-self: center; align-self: center; width: min(350px, 100%); }
 
 .phone-shell {
   position: relative;
