@@ -216,24 +216,38 @@ h3 { line-height: 1.18; letter-spacing: -0.025em; }
 .button.secondary { border: 1px solid var(--line); background: var(--white); }
 .button.secondary:hover { border-color: var(--teal-dark); }
 
+/* App Store badge: the hero's primary action. Apple's white badge treatment so it
+   reads clearly against the dark hero instead of blending into it. */
 .appstore-badge {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
-  min-height: 54px;
-  padding: 0 20px;
-  border-radius: 14px;
-  background: #000000;
-  color: var(--white);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  gap: 14px;
+  min-height: 66px;
+  padding: 0 28px 0 24px;
+  border-radius: 16px;
+  background: var(--white);
+  color: #000000;
+  border: 2px solid var(--white);
+  box-shadow:
+    0 0 0 4px rgba(0, 217, 255, 0.22),
+    0 16px 40px rgba(0, 217, 255, 0.28),
+    0 10px 30px rgba(0, 0, 0, 0.45);
   text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
 }
-.appstore-badge svg { width: 25px; height: 25px; fill: currentColor; }
-.appstore-badge-text { display: flex; flex-direction: column; line-height: 1.18; }
-.appstore-badge-text small { font-size: 10px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: #c3ccd4; }
-.appstore-badge-text strong { font-size: 19px; font-weight: 800; letter-spacing: 0.01em; }
+.appstore-badge svg { width: 34px; height: 34px; flex-shrink: 0; fill: currentColor; }
+.appstore-badge-text { display: flex; flex-direction: column; line-height: 1.15; white-space: nowrap; }
+.appstore-badge-text small { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #3a4450; }
+.appstore-badge-text strong { font-size: 24px; font-weight: 800; letter-spacing: 0; }
 .appstore-badge.is-soon { cursor: default; }
-a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px); }
+a.appstore-badge:hover,
+a.appstore-badge:focus-visible {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 5px rgba(0, 217, 255, 0.4),
+    0 20px 48px rgba(0, 217, 255, 0.36),
+    0 12px 32px rgba(0, 0, 0, 0.45);
+}
 
 .hero .button.secondary {
   border-color: rgba(255, 255, 255, 0.18);
@@ -609,6 +623,8 @@ a.appstore-badge:hover { border-color: var(--cyan); transform: translateY(-1px);
   .site-header nav a:nth-child(4) { display: none; }
   .hero { min-height: auto; padding-block: 46px 72px; gap: 44px; }
   .hero-copy { padding-top: 0; }
+  .hero-actions { gap: 14px; }
+  .appstore-badge { width: 100%; justify-content: center; min-height: 70px; }
   h1 { font-size: clamp(48px, 15vw, 68px); letter-spacing: -0.015em; word-spacing: 0.02em; }
   .hero-visual::before { inset-inline: 0; }
   .screen-glow { inset-inline: 0; }
