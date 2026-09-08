@@ -49,7 +49,7 @@ Key facts:
   Later" is a normal scheduled state; "Live Updates Delayed" is reserved for
   missing fresh data after the window opens. A pick is "Early" until about two
   minutes before post, then "Final".
-- Live record: Across ten tracked cards from August 20 through September 4, 2026, 31 of 72 final pre-race picks matched their published result type, a live pick-match rate of 43.1%. The app made no pick in 16 of 88 settled races. Every counted pick was saved before the official finish was known. All cards used public-card v0.4: ticket-policy v0.4 matched 23 of 56 picks (41.1%) across eight cards; ticket-policy v0.5 matched 8 of 16 picks (50.0%) on September 3–4. A match means the saved pick satisfied its published Win, Place, Show, or multi-horse finish condition. This small sample does not establish profitability or a betting edge. September 5 races are not included.
+- Final 2026 summer results: Across 13 tracked cards from August 20 through September 7, 2026, 47 of 105 final pre-race picks matched their published result type, a pick-match rate of 44.8%. The app made no pick in 16 of 121 settled races. Every counted pick was saved before post and checked against official results. A match means the saved pick satisfied its published Win, Place, Show, or multi-horse finish condition. This small sample does not establish profitability or a betting edge.
 - Why it was built: the developer, Brett Pollak, found the betting window the
   hardest part of a Del Mar race day and saw most attendees choosing horses
   by paddock impressions, colors, or lucky numbers. The app applies the same
