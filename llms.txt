@@ -49,6 +49,7 @@ Key facts:
   Later" is a normal scheduled state; "Live Updates Delayed" is reserved for
   missing fresh data after the window opens. A pick is "Early" until about two
   minutes before post, then "Final".
+- 2026 Bing Crosby meet, through November 15: across 6 of 13 cards (November 6, 7, 8, 13, 14, 15), 23 of 52 final pre-race picks matched their published result type, a pick-match rate of 44.2%. Show picks matched 20 of 34, Win picks 2 of 7, and three-horse Trifecta boxes 1 of 11. Every counted pick was saved before post and checked against official results. The next card is Friday, November 20; the meet ends November 29. This small sample does not establish profitability or a betting edge.
 - Final 2026 summer results: Across 13 tracked cards from August 20 through September 7, 2026, 45 of 103 final pre-race picks matched their published result type, a pick-match rate of 43.7%. The app made no pick in 16 of 121 settled races, and 2 Show picks in races where Del Mar offered no show pool are not counted. Every counted pick was saved before post and checked against official results. A match means the saved pick satisfied its published Win, Place, Show, or multi-horse finish condition. This small sample does not establish profitability or a betting edge.
 - Why it was built: the developer, Brett Pollak, found the betting window the
   hardest part of a Del Mar race day and saw most attendees choosing horses

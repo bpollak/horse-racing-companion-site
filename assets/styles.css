@@ -370,6 +370,7 @@ a.appstore-badge:focus-visible {
 .live-record-copy > p:not(.eyebrow) { max-width: 760px; color: #bdc9d2; }
 .live-record-copy .live-record-lede { color: var(--cream); font-size: 21px; line-height: 1.65; }
 .live-record-lede strong { color: var(--teal); }
+.live-record-copy > p.record-prior { margin-top: 20px; font-size: 16px; line-height: 1.7; color: #8fa0ad; }
 
 .live-record-stats {
   overflow: hidden;
