@@ -42,3 +42,8 @@ Season and review maintenance:
   on 2026-09-02.
 - Mirror this directory manually after every approved public-site change;
   pushing the application repository does not update production.
+- Seasonal page `bing-crosby/` uses the homepage header markup (brand and nav
+  as direct children of `.site-header`). The 680 px rule in
+  `assets/styles.css` hides the third and fourth header links, so keep the
+  page's own anchor ("Get ready") in the first slot. Check 390 px and 1440 px
+  before mirroring. Keep meta titles free of em dashes.
